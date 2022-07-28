@@ -20,7 +20,7 @@ console.log(typeof year);
 
 year = 1991;
 */
-
+/*
 let age = 30;
 age = 31;
 
@@ -30,4 +30,9 @@ const birthYear = 1991;
 
 var job = "programmer";
 job = "teacher";
-console.log(job);
+console.log(job);*/
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah);
