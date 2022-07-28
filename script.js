@@ -11,3 +11,5 @@ console.log(firstName);
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
+
+javascriptIsFun = "YES!";
