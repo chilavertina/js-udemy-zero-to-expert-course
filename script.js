@@ -95,6 +95,7 @@ console.log(BMI2Mark, BMI2John);
 markHigherBMI2 = BMI2Mark > BMI2John;
 console.log(markHigherBMI2);*/
 
+/*
 const firstName = "Jonas";
 const job = "teacher";
 const birthYear = 1991;
@@ -111,4 +112,11 @@ console.log(`Ovo je obican string uz upotrebu backticksa...`);
 
 console.log(`String
 napisan
-u vise linija...`);
+u vise linija...`);*/
+
+const age = 19;
+const isOldEnough = age >= 18;
+
+if (isOldEnough) {
+  console.log("Sarah can start driving license 🚗");
+}
