@@ -1,4 +1,4 @@
-const country = "Serbia";
+/*const country = "Serbia";
 const continent = "Europe";
 let populationSerbia = 7000000;
 
@@ -33,3 +33,4 @@ const description =
   language +
   ".";
 console.log(description);
+*/
