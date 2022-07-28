@@ -7,7 +7,7 @@ console.log(23);
 
 let firstName = "Bob";
 console.log(firstName);
-*/
+
 
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -19,3 +19,10 @@ console.log(year);
 console.log(typeof year);
 
 year = 1991;
+*/
+
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+birthYear = 1990;

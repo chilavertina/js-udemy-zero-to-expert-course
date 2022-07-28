@@ -1,3 +1,4 @@
+/*
 //prva vezba - values and variables
 let country = "Serbia";
 let continent = "Europe";
@@ -15,3 +16,4 @@ console.log(typeof isIsland);
 console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
+*/
