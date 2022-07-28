@@ -39,3 +39,7 @@ console.log(ageJonas, ageSarah);
 
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // 2 ** 3 = dva na kub
+
+const firstName = "Jonas";
+const lastName = "Smith";
+console.log(firstName + " " + lastName);
