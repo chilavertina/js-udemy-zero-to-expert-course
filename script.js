@@ -13,3 +13,7 @@ let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
 javascriptIsFun = "YES!";
+
+let year;
+console.log(year);
+console.log(typeof year);
