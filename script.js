@@ -113,7 +113,7 @@ console.log(`Ovo je obican string uz upotrebu backticksa...`);
 console.log(`String
 napisan
 u vise linija...`);*/
-
+/*
 const age = 15;
 
 if (age >= 18) {
@@ -132,4 +132,24 @@ if (birthYear <= 2000) {
   century = 21;
 }
 
-console.log(century);
+console.log(century);*/
+
+let weight1Mark = 78;
+let weight1John = 92;
+let height1Mark = 1.69;
+let height1John = 1.95;
+const BMI1Mark = weight1Mark / height1Mark ** 2;
+const BMI1John = weight1John / height1John ** 2;
+console.log(`Mark's BMI: ${BMI1Mark}; John's BMI: ${BMI1John}`);
+
+if (BMI1Mark > BMI1John) {
+  console.log("Mark's BMI is higher than John's!");
+} else {
+  console.log("John's BMI is higher than Mark's!");
+}
+
+if (BMI1Mark > BMI1John) {
+  console.log(`Mark's BMI (${BMI1Mark}) is higher than John's (${BMI1John})!`);
+} else {
+  console.log(`John's BMI (${BMI1John}) is higher than Mark's (${BMI1Mark})!`);
+}
