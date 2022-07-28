@@ -60,7 +60,7 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 */
-
+/*
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
@@ -72,4 +72,25 @@ x = y = 25 - 10 - 5;
 console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
-console.log(ageJonas, ageSarah, averageAge);
+console.log(ageJonas, ageSarah, averageAge);*/
+
+/* resenje challenge #1
+let weight1Mark = 78;
+let weight1John = 92;
+let height1Mark = 1.69;
+let height1John = 1.95;
+const BMI1Mark = weight1Mark / height1Mark ** 2;
+const BMI1John = weight1John / height1John ** 2;
+console.log(BMI1Mark, BMI1John);
+markHigherBMI1 = BMI1Mark > BMI1John;
+console.log(markHigherBMI1);
+
+let weight2Mark = 95;
+let weight2John = 85;
+let height2Mark = 1.88;
+let height2John = 1.76;
+const BMI2Mark = weight2Mark / height2Mark ** 2;
+const BMI2John = weight2John / height2John ** 2;
+console.log(BMI2Mark, BMI2John);
+markHigherBMI2 = BMI2Mark > BMI2John;
+console.log(markHigherBMI2);*/
