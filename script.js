@@ -94,3 +94,15 @@ const BMI2John = weight2John / height2John ** 2;
 console.log(BMI2Mark, BMI2John);
 markHigherBMI2 = BMI2Mark > BMI2John;
 console.log(markHigherBMI2);*/
+
+const firstName = "Jonas";
+const job = "teacher";
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + ".";
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
+console.log(jonasNew);
