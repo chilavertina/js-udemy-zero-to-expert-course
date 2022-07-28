@@ -53,3 +53,9 @@ x++; // x = x + 1 = 101
 x--; // x = x - 1 = 100
 x--; // x = x - 1 = 99
 console.log(x);
+
+//comparison operators
+console.log(ageJonas > ageSarah);
+console.log(ageSarah >= 18);
+
+const isFullAge = ageSarah >= 18;
