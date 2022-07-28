@@ -108,3 +108,7 @@ const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}.`;
 console.log(jonasNew);
 
 console.log(`Ovo je obican string uz upotrebu backticksa...`);
+
+console.log(`String
+napisan
+u vise linija...`);
