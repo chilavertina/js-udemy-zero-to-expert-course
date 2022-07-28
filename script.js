@@ -17,3 +17,5 @@ javascriptIsFun = "YES!";
 let year;
 console.log(year);
 console.log(typeof year);
+
+year = 1991;
