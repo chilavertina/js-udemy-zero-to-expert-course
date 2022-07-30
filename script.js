@@ -154,6 +154,7 @@ if (BMI1Mark > BMI1John) {
   console.log(`John's BMI (${BMI1John}) is higher than Mark's (${BMI1Mark})!`);
 }*/
 
+//type conversion
 //pretvaranje stringova u brojeve
 const inputYear = "1991";
 console.log(Number(inputYear));
@@ -162,3 +163,13 @@ console.log(Number(inputYear) + 18);
 console.log(Number("Jonas"));
 
 //pretvaranje brojeva u stringove
+console.log(String(23), 23);
+
+//type coercion
+console.log("I am " + 23 + " yeras old."); //+ operator pretvara brojeve u stringove
+console.log("I am " + "23" + " years old.");
+console.log("23" - "10" - 3); // ostali operatori pretvaraju stringove u brojeve (-, *, /)
+
+let n = "1" + 1;
+n = n - 1;
+console.log(n);
