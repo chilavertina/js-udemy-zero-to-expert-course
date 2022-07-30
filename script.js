@@ -174,7 +174,7 @@ let n = "1" + 1;
 n = n - 1;
 console.log(n);
 */
-
+/*
 //falsy values: 0, '', undefined, null, NaN
 
 console.log(Boolean(0)); //false
@@ -196,4 +196,25 @@ if (height) {
   console.log("YAY! Height is defined!");
 } else {
   console.log("Height is undefined.");
+}*/
+
+/*
+const age = "18";
+if (age === 18) console.log("You just became an adult! (strict)");
+
+if (age == 18) console.log("You just became an adult! (loose)");
+
+const favourite = Number(prompt("What's your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 11) {
+  console.log("Cool! 11 is an amazing number!");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number!");
+} else {
+  console.log("Number is not 11 or 7!");
 }
+
+if (favourite !== 23) console.log("Why not 23?");
+*/
