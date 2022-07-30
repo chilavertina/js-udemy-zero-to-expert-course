@@ -226,9 +226,7 @@ console.log(hasDriversLicense && hasGoodVision); // false
 console.log(hasDriversLicense || hasGoodVision); // true
 console.log(!hasDriversLicense); // false
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
-
-if (shouldDrive) {
+if (hasDriversLicense && hasGoodVision) {
   console.log("Sarah is able to drive!");
 } else {
   console.log("Someone else should drive.");
