@@ -133,7 +133,7 @@ if (birthYear <= 2000) {
 }
 
 console.log(century);*/
-
+/*
 let weight1Mark = 78;
 let weight1John = 92;
 let height1Mark = 1.69;
@@ -152,4 +152,13 @@ if (BMI1Mark > BMI1John) {
   console.log(`Mark's BMI (${BMI1Mark}) is higher than John's (${BMI1John})!`);
 } else {
   console.log(`John's BMI (${BMI1John}) is higher than Mark's (${BMI1Mark})!`);
-}
+}*/
+
+//pretvaranje stringova u brojeve
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+
+//pretvaranje brojeva u stringove
