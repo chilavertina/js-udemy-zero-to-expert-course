@@ -153,7 +153,7 @@ if (BMI1Mark > BMI1John) {
 } else {
   console.log(`John's BMI (${BMI1John}) is higher than Mark's (${BMI1Mark})!`);
 }*/
-
+/*
 //type conversion
 //pretvaranje stringova u brojeve
 const inputYear = "1991";
@@ -173,3 +173,27 @@ console.log("23" - "10" - 3); // ostali operatori pretvaraju stringove u brojeve
 let n = "1" + 1;
 n = n - 1;
 console.log(n);
+*/
+
+//falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0)); //false
+console.log(Boolean(undefined)); //false
+console.log(Boolean("Jonas")); //true
+console.log(Boolean({})); //true
+console.log(Boolean(null)); //false
+console.log(Boolean()); //false
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all.");
+} else {
+  console.log("You should get a job");
+}
+
+let height;
+if (height) {
+  console.log("YAY! Height is defined!");
+} else {
+  console.log("Height is undefined.");
+}
