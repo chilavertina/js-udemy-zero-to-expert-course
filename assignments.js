@@ -1,4 +1,4 @@
-const country = "Serbia";
+/*const country = "Serbia";
 const continent = "Europe";
 let populationSerbia = 7000000;
 
@@ -33,7 +33,7 @@ console.log(populationSerbia < populationAverage);
   language +
   ".";
 console.log(description);
-*/
+
 //TEMPLATE LITERALS ASSIGNMENT
 const description = `${country} is in ${continent}, and its ${populationSerbia} people speak ${language}.`;
 console.log(description);
@@ -53,7 +53,7 @@ if (numNeighbours === 1) {
 } else {
   console.log("No neighbours!");
 }*/
-
+/*
 if (language === "english" && populationAverage < 50000000 && !isIsland) {
   console.log("You should live in Serbia");
 } else {
@@ -82,3 +82,4 @@ switch (language) {
 }
 
 console.log(`Serbia's population is ${populationSerbia > populationAverage ? "above average" : "below average"}.`);
+*/
